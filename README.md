@@ -1,5 +1,9 @@
 # Google_data_analytics_capstone_project
 
+# Project resources 
+
+https://www.coursera.org/learn/google-data-analytics-capstone/supplement/7PGIT/case-study-1-how-does-a-bike-share-navigate-speedy-success
+
 
 # Project summary 
 
