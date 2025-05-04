@@ -18,6 +18,14 @@
 - Using these insights, we are to engineer a new **marketing strategy** to convert casual riders into annual members.
 - These recommendations must be backed up by **data** and **visualizations** to make a compelling case for the executives to approve the recommendations.
 
+## ASK
+
+In this phase of the data analysis process, we are focused on understanding the problem at hand by asking the right questions. The key question we are tackling here is:
+
+- **How do annual members and casual riders use Cyclistic bikes differently?**
+
+This is the first phase of the project where the goal is to define the problem clearly, ensuring we align with the expectations of stakeholders and frame the analysis accordingly.
+
 ## Business Task
 
 **Cyclistic** is a bike-share company in **Chicago**. The executive director believes that annual memberships will help drive future growth. At present, **casual riders** (who use single-ride or full-day passes) make up a large portion of Cyclistic's customer base. However, **annual memberships** are more profitable.
