@@ -12,3 +12,21 @@
 - Our team has been tasked with understanding the differences between how casual members and annual members use cyclisitic bikes.
 - Using these insights we are to we are to engineer a new marketing strategy to convert casual riders to annual members.
 - These recommendations must be backed up by the data and visualisations, to put forawrd a compeeling case so that the executives will approve the recommendations.
+
+
+# Business task:
+
+Cyclisitc is a bike share company in Chicago, The executive director believes that annual memberships will help to drive future growth.
+At the present time casual riders (who use single-ride or full-day passes) make up a large portion of cyclisitcs customer base.
+However despite this annual memberships are more profitable.
+
+The marketing team lead by Lily Moren, wants to implement a campaign to convert casuul riders into annual members. To achieve this our task as the data 
+analysitcs team for the project is to:
+
+1. Analyse the difference between how annual members and casual riders use Cyclistic bikes.
+2. Identify the key reasons that might attact casual riders into purchasing an annual membership,
+3. Explore the ways in which social media can influence casual riders to become members.
+
+To achieve this objective we will be using historical bike trip data to provde meaningful insights into these areas and engineer
+data-driven recommmendations for the marketing team. These insight will be used to to put the case forward to to the eecutive team to approve the new
+marketing strategies.
