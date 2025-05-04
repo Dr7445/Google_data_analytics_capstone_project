@@ -20,7 +20,9 @@
 - These recommendations must be backed up by the data and visualisations, to put forawrd a compeeling case so that the executives will approve the recommendations.
 
 
-# Business task:
+#ASK
+## Business task
+
 
 Cyclisitc is a bike share company in Chicago, The executive director believes that annual memberships will help to drive future growth.
 At the present time casual riders (who use single-ride or full-day passes) make up a large portion of cyclisitcs customer base.
@@ -51,3 +53,8 @@ I am to produce a report with the following deliverables
 The following case study roadmap can be used as a guide.
 
 <img width="304" alt="image" src="https://github.com/user-attachments/assets/ad8a6050-4840-41bb-a41b-d48d84fcc7b6" />
+
+## Key stakeholders
+
+Lily Monero - Director of marketing and my manager
+The Cyclisitc executive team - Who have the final say in approving the recommendations
