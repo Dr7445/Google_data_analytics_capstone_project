@@ -33,6 +33,21 @@ analysitcs team for the project is to:
 2. Identify the key reasons that might attact casual riders into purchasing an annual membership,
 3. Explore the ways in which social media can influence casual riders to become members.
 
+Moreno has assigned me with answering the first question. How do annual members and casual riders use Cyclistic bikes differently.   
+
 To achieve this objective we will be using historical bike trip data to provde meaningful insights into these areas and engineer
 data-driven recommmendations for the marketing team. These insight will be used to to put the case forward to to the eecutive team to approve the new
 marketing strategies.
+
+I am to produce a report with the following deliverables
+
+1. A clear statement of the business task
+2. A description of all data sources used
+3. Documentation of any cleaning or manipulation of data
+4. A summary of your analysis
+5. Supporting visualizations and key findings
+6. Your top three recommendations based on your analysis
+
+The following case study roadmap can be used as a guide.
+
+<img width="304" alt="image" src="https://github.com/user-attachments/assets/ad8a6050-4840-41bb-a41b-d48d84fcc7b6" />
