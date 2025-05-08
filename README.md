@@ -113,8 +113,20 @@ code snippet can be found in the cleaning_and_transformation.R file
 <img width="76" alt="image" src="https://github.com/user-attachments/assets/3bdb21fe-f33d-4093-9730-4f3e91aefcb2" />    <img width="88" alt="image" src="https://github.com/user-attachments/assets/2b6fadc7-9c66-4706-996c-029fdf837c66" />
 
 
+# Replacing missiing values
 
+A quick check for missing or null values showed that gender and birthyear both had a substantial amout of missing values.
 
+ colSums(is.na(all_trips_2019_clean))
+          trip_id        start_time          end_time      tripduration from_station_name   to_station_name          usertype            gender         birthyear 
+                0                 0                 0                 0                 0                 0                 0            559206            538751 
+          quarter trip_duration_fmt 
+                0                 0 
+
+In the gender column I replaced all missing values with "unspecified" for consistency. The code snipet for this is contained in the cleaning_and_transformation.R file
+
+In the birthrate column I caluclated the mode of the birthyears because I fell that it would be the most beneficial for further age analysis, I then populated all missing
+values with the Mode of the birthyeas which was 1992. The code snippet for this is contained in the mean_age_column.R file.
 
 
 
