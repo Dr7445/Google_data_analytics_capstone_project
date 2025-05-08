@@ -93,7 +93,7 @@ data in to the correct columns to streamline the dataframe.
 
 
 
-Blended Q2 data ready for further cleaning, amnipulation and transformation.
+Blended Q2 data ready for further cleaning, manipulation and transformation.
 
 <img width="1026" alt="image" src="https://github.com/user-attachments/assets/382b6023-5858-4d9a-9a65-0a91bcc9f47a" />
 
