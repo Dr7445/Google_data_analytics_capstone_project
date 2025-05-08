@@ -103,5 +103,19 @@ Blended Q2 data ready for further cleaning, manipulation and transformation.
 <img width="1026" alt="image" src="https://github.com/user-attachments/assets/382b6023-5858-4d9a-9a65-0a91bcc9f47a" />
 
 
+## Changing the format of tripduration
+
+Here I have changed the format of trip duration in to a medioum that is easier to digest.
+
+code snippet can be found in the cleaning_and_transformation.R file
+
+
+<img width="76" alt="image" src="https://github.com/user-attachments/assets/3bdb21fe-f33d-4093-9730-4f3e91aefcb2" />    <img width="88" alt="image" src="https://github.com/user-attachments/assets/2b6fadc7-9c66-4706-996c-029fdf837c66" />
+
+
+
+
+
+
 
 
