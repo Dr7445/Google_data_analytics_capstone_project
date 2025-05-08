@@ -57,3 +57,23 @@ The following case study roadmap can be used as a guide:
 
 - **Lily Moreno** – Director of marketing and my manager.
 - **The Cyclistic executive team** – Who have the final say in approving the recommendations.
+
+
+#🚴‍♀️ Cyclistic Capstone Project – Google Data Analytics
+
+##📌 Business Task
+The goal of this analysis is to help Cyclistic, a fictional bike-share company in Chicago, understand how casual riders and annual members use the service differently. The insights will support a marketing strategy to convert more casual riders into paying members.
+
+##📂 Data Description
+The dataset includes bike trip data from Divvy, Chicago’s bike-share system, for all four quarters of 2019.
+Each CSV file contains details such as:
+
+Start/end time and station
+
+Trip duration
+
+User type (member or casual)
+
+Rider demographics (where available)
+
+Note: The data was provided by Motivate International Inc. under the open data license.
