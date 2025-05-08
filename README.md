@@ -77,3 +77,17 @@ User type (member or casual)
 Rider demographics (where available)
 
 Note: The data was provided by Motivate International Inc. under the open data license.
+
+
+
+
+# Data cleaning, manipulation and transformation
+
+Below is an overveiw of the combined datasets in to a single dataframe, coloumn names are consistant across q1,q3 and q4
+however q2 uses different column names for the same data (see 2nd pic) so I will use blended data techniques to merge the q2
+data in to the correct columns to streamline the dataframe.
+
+<img width="1009" alt="image" src="https://github.com/user-attachments/assets/5b7f759f-7d50-42fa-b3f7-07259117221e" />
+
+<img width="1018" alt="image" src="https://github.com/user-attachments/assets/9f6ed0b9-7c33-4488-a6e0-ef91b4944c7a" />
+
