@@ -91,3 +91,12 @@ data in to the correct columns to streamline the dataframe.
 
 <img width="1018" alt="image" src="https://github.com/user-attachments/assets/9f6ed0b9-7c33-4488-a6e0-ef91b4944c7a" />
 
+
+
+Blended Q2 data ready for further cleaning, amnipulation and transformation.
+
+<img width="1026" alt="image" src="https://github.com/user-attachments/assets/382b6023-5858-4d9a-9a65-0a91bcc9f47a" />
+
+
+
+
