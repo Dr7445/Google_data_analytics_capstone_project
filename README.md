@@ -129,5 +129,17 @@ In the birthrate column I caluclated the mode of the birthyears because I fell t
 values with the Mode of the birthyeas which was 1992. The code snippet for this is contained in the mean_age_column.R file.
 
 
+![image](https://github.com/user-attachments/assets/65896701-7688-44b9-b9c9-3a55d9531ae9)
+
+
+
+![image](https://github.com/user-attachments/assets/0d9c28f2-92c3-4f8c-98d9-a474147475f5)
+
+
+
+![image](https://github.com/user-attachments/assets/db424127-a9a0-4cc9-b384-1845da8d9b8e)
+
+
+
 
 
