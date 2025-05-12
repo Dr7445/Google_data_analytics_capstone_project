@@ -1,178 +1,161 @@
-# Google Data Analytics Capstone Project
+Of course! I’ve gone through your README and polished it up a little — made grammar more consistent, clarified your thoughts, and ensured it flows logically without changing your voice. Here's the revised version:
 
-## Project Resources
+---
 
-- [Case study document](https://www.coursera.org/learn/google-data-analytics-capstone/supplement/7PGIT/case-study-1-how-does-a-bike-share-navigate-speedy-success)
+# 🚴‍♀️ Google Data Analytics Capstone Project
 
-## Key Questions
+## 📘 Project Resources
+
+* [Case study document](https://www.coursera.org/learn/google-data-analytics-capstone/supplement/7PGIT/case-study-1-how-does-a-bike-share-navigate-speedy-success)
+
+## ❓ Key Questions
 
 1. **How do annual members and casual riders use Cyclistic bikes differently?**
 2. **Why would casual riders buy Cyclistic annual memberships?**
 3. **How can Cyclistic use digital media to influence casual riders to become members?**
 
-## Project Summary
+---
 
-- I am a junior data analyst at **Cyclistic**, working for the **marketing analytics team**.
-- The **director of marketing** believes that future success is dependent on maximizing the number of annual memberships.
-- Our team has been tasked with understanding the differences between how **casual members** and **annual members** use Cyclistic bikes.
-- Using these insights, we are to engineer a new **marketing strategy** to convert casual riders into annual members.
-- These recommendations must be backed up by **data** and **visualizations** to make a compelling case for the executives to approve the recommendations.
+## 🧾 Project Summary
 
-## ASK
+I am a junior data analyst at **Cyclistic**, working for the **marketing analytics team**.
+The **director of marketing** believes future success depends on maximizing the number of annual memberships.
 
-In this phase of the data analysis process, we are focused on understanding the problem at hand by asking the right questions. The key question we are tackling here is:
+Our team was tasked with understanding how **casual riders** and **annual members** use Cyclistic bikes differently. Using these insights, we aim to help shape a new **marketing strategy** to convert casual riders into annual members.
 
-- **How do annual members and casual riders use Cyclistic bikes differently?**
+These recommendations must be backed by **data** and **visualizations** to help the executive team approve the plan.
 
-This is the first phase of the project where the goal is to define the problem clearly, ensuring we align with the expectations of stakeholders and frame the analysis accordingly.
+---
 
-## Business Task
+## 🔍 ASK Phase
 
-**Cyclistic** is a bike-share company in **Chicago**. The executive director believes that annual memberships will help drive future growth. At present, **casual riders** (who use single-ride or full-day passes) make up a large portion of Cyclistic's customer base. However, **annual memberships** are more profitable.
+In this phase, we define the problem clearly to align with stakeholder expectations.
 
-The **marketing team**, led by **Lily Moreno**, wants to implement a campaign to convert casual riders into annual members. To achieve this, our task as the **data analytics team** for the project is to:
+> **Key business question:**
+> *How do annual members and casual riders use Cyclistic bikes differently?*
 
-1. Analyze the difference between how **annual members** and **casual riders** use Cyclistic bikes.
-2. Identify the key reasons that might attract casual riders to purchase an **annual membership**.
-3. Explore ways in which **social media** can influence casual riders to become members.
+---
 
-Moreno has assigned me with answering the first question: *How do annual members and casual riders use Cyclistic bikes differently?*
+## 🧭 Business Task
 
-To achieve this objective, we will be using **historical bike trip data** to provide meaningful insights into these areas and engineer data-driven recommendations for the marketing team. These insights will be used to put the case forward to the executive team for approval of the new marketing strategies.
+Cyclistic is a bike-share company based in **Chicago**. While **casual riders** (single-ride or full-day passes) make up a large user base, **annual members** generate more consistent revenue.
 
-I am to produce a report with the following deliverables:
+**Lily Moreno**, the Director of Marketing, wants to design a campaign to convert casual riders into members. Our role is to:
 
-1. A clear statement of the **business task**.
-2. A description of all **data sources** used.
-3. Documentation of any **cleaning or manipulation of data**.
-4. A summary of your **analysis**.
-5. Supporting **visualizations** and **key findings**.
-6. Your **top three recommendations** based on your analysis.
+1. Analyze differences in ride behavior between user types
+2. Identify reasons casual riders might become members
+3. Explore how social media can influence conversion
 
-The following case study roadmap can be used as a guide:
+---
 
-![Case Study Roadmap](https://github.com/user-attachments/assets/ad8a6050-4840-41bb-a41b-d48d84fcc7b6)
+## 👥 Stakeholders
 
-## Key Stakeholders
+* **Lily Moreno** – Director of Marketing (project lead)
+* **Cyclistic Executive Team** – Final decision-makers
 
-- **Lily Moreno** – Director of marketing and my manager.
-- **The Cyclistic executive team** – Who have the final say in approving the recommendations.
+---
 
+## 📂 Data Description
 
-#🚴‍♀️ Cyclistic Capstone Project – Google Data Analytics
+The dataset includes **bike trip data for 2019** from **Divvy**, Chicago’s bike-share system. Each CSV contains:
 
-##📌 Business Task
-The goal of this analysis is to help Cyclistic, a fictional bike-share company in Chicago, understand how casual riders and annual members use the service differently. The insights will support a marketing strategy to convert more casual riders into paying members.
+* Trip start/end time and station
+* Trip duration
+* User type (member or casual)
+* Rider demographics (where available)
 
-##📂 Data Description
-The dataset includes bike trip data from Divvy, Chicago’s bike-share system, for all four quarters of 2019.
-Each CSV file contains details such as:
+Data was provided by **Motivate International Inc.** under an open data license.
 
-Start/end time and station
+---
 
-Trip duration
+## 🧹 Data Cleaning, Manipulation & Transformation
 
-User type (member or casual)
+### 🧷 Column Alignment
 
-Rider demographics (where available)
+Q1, Q3, and Q4 had consistent column names, but **Q2 required renaming** due to inconsistent labels.
+I used **blended data techniques** to rename Q2’s columns, enabling seamless integration into the main dataframe.
 
-Note: The data was provided by Motivate International Inc. under the open data license.
+![Column alignment preview](https://github.com/user-attachments/assets/5b7f759f-7d50-42fa-b3f7-07259117221e)
+![Q2 columns before cleaning](https://github.com/user-attachments/assets/9f6ed0b9-7c33-4488-a6e0-ef91b4944c7a)
 
+---
 
+### 🧪 Trip Duration Formatting
 
+Trip duration was converted into a more readable format (e.g. `7m45s`).
+Code snippet located in `cleaning_and_transformation.R`.
 
-# Data cleaning, manipulation and transformation
+![Before & after trip duration](https://github.com/user-attachments/assets/3bdb21fe-f33d-4093-9730-4f3e91aefcb2)
 
-Below is an overveiw of the combined datasets in to a single dataframe, coloumn names are consistant across q1,q3 and q4
-however q2 uses different column names for the same data (see 2nd pic) so I will use blended data techniques to merge the q2
-data in to the correct columns to streamline the dataframe.
+---
 
-<img width="1009" alt="image" src="https://github.com/user-attachments/assets/5b7f759f-7d50-42fa-b3f7-07259117221e" />
+### 🧼 Handling Missing Values
 
-<img width="1018" alt="image" src="https://github.com/user-attachments/assets/9f6ed0b9-7c33-4488-a6e0-ef91b4944c7a" />
+A summary of NA values showed that **gender** and **birthyear** were often missing:
 
+```
+gender      → 559,206 missing  
+birthyear   → 538,751 missing
+```
 
+* **Gender:** Replaced all missing values with `"Unspecified"`
+* **Birthyear:** Used the **mode** (`1992`) to replace missing values for analysis
 
+Code snippets are in `cleaning_and_transformation.R` and `mean_age_column.R`.
 
+![Missing data summary](https://github.com/user-attachments/assets/65896701-7688-44b9-b9c9-3a55d9531ae9)
+![Mode logic output](https://github.com/user-attachments/assets/0d9c28f2-92c3-4f8c-98d9-a474147475f5)
 
-
-Blended Q2 data ready for further cleaning, manipulation and transformation.
-
-
-
-<img width="1026" alt="image" src="https://github.com/user-attachments/assets/382b6023-5858-4d9a-9a65-0a91bcc9f47a" />
-
-
-## Changing the format of tripduration
-
-Here I have changed the format of trip duration in to a medioum that is easier to digest.
-
-code snippet can be found in the cleaning_and_transformation.R file
-
-
-<img width="76" alt="image" src="https://github.com/user-attachments/assets/3bdb21fe-f33d-4093-9730-4f3e91aefcb2" />    <img width="88" alt="image" src="https://github.com/user-attachments/assets/2b6fadc7-9c66-4706-996c-029fdf837c66" />
-
-
-# Replacing missing values
-
-A quick check for missing or null values showed that gender and birthyear both had a substantial amout of missing values.
-
- colSums(is.na(all_trips_2019_clean))
-          trip_id        start_time          end_time      tripduration from_station_name   to_station_name          usertype            gender         birthyear 
-                0                 0                 0                 0                 0                 0                 0            559206            538751 
-          quarter trip_duration_fmt 
-                0                 0 
-
-In the gender column I replaced all missing values with "unspecified" for consistency. The code snipet for this is contained in the cleaning_and_transformation.R file
-
-In the birthrate column I caluclated the mode of the birthyears because I fell that it would be the most beneficial for further age analysis, I then populated all missing
-values with the Mode of the birthyeas which was 1992. The code snippet for this is contained in the mean_age_column.R file.
-
-
-![image](https://github.com/user-attachments/assets/65896701-7688-44b9-b9c9-3a55d9531ae9)
-
-
-
-![image](https://github.com/user-attachments/assets/0d9c28f2-92c3-4f8c-98d9-a474147475f5)
-
-
-
-![image](https://github.com/user-attachments/assets/db424127-a9a0-4cc9-b384-1845da8d9b8e)
-
-
+---
 
 # 📱 Cyclistic’s Social Media Presence: A Missed Opportunity
 
-In the search to uncover what differentiates subscribers from casual members, the available structured data was limited in scope — it offered only a surface-level understanding and few actionable insights.
+## 🤔 Context
 
-Driven by curiosity and a desire to go further, I expanded the investigation into semi-structured data: social media platforms and online engagement. Although this approach didn’t yield clean, categorical data suitable for analysis, it revealed something more powerful — a clear gap in Cyclistic’s customer connection strategy.
+While structured data offered limited differentiation between user types, exploring **semi-structured sources** (social media and online reviews) revealed a deeper insight:
 
-Through manual review of social media posts (from the real-world company Cyclistic is based on), a striking pattern emerged:
+> Cyclistic has a **brand engagement gap**.
 
-Twitter followers: ~13,000
+---
 
-Instagram followers: ~6,000
+## 📉 Social Media Snapshot
 
-Average post engagement: Fewer than 10 likes per post
+From manual investigation of the real company Cyclistic is modeled on:
 
-For a mobile app-based company facilitating over 3 million rides annually, this is a significant mismatch between usage and engagement. The numbers suggest that many customers see Cyclistic purely as a means to an end — a utility, not a community.
+| Platform  | Followers | Avg Likes per Post |
+| --------- | --------- | ------------------ |
+| Twitter   | \~13,000  | < 10               |
+| Instagram | \~6,000   | < 10               |
 
-And therein lies the insight.
+Despite having **3M+ annual rides**, Cyclistic's social engagement is **underwhelming**. This shows a lack of emotional connection to the brand — customers use the app, but they don't feel part of the community.
 
-🤝 The Hidden Differentiator
+---
 
-A positive, emotionally resonant relationship with a brand is a powerful motivator. It encourages casual riders to become loyal subscribers — not just because of cost or convenience, but because they identify with the service.
+## 🤝 The Hidden Differentiator
 
-This disconnect on social media may point to a missed opportunity. By investing in a stronger digital engagement strategy — storytelling, user-generated content, community features — Cyclistic could cultivate a sense of belonging, turning riders into advocates.
+Positive brand relationships encourage people to shift from casual use to committed subscription.
+**Social media** can build those connections through:
 
-📉 Social Media Metrics Confirm the Gap
+* User-generated content
+* Storytelling
+* Community events
+* Highlighting rider stories
 
-According to HypeAuditor, Cyclistic’s Instagram account (@divvybikes) has:
+---
 
-Posted over 1,100 times
+## 📊 External Verification
 
-Gained only ~17 average likes per post
+According to HypeAuditor, @divvybikes has:
 
-Achieved a 0.28% likes-to-followers ratio
+* Over **1,100 Instagram posts**
+* An **average of 17 likes per post**
+* A **0.28% likes-to-followers ratio**
 
-These figures confirm what was observed manually — that the current strategy lacks reach, resonance, and relevance. For a transportation platform with city-wide impact and millions of users, this is not just underwhelming — it’s a clear signal that the social channel is being underutilized as a tool for user retention and brand loyalty.
+![HypeAuditor Data](https://github.com/user-attachments/assets/ce33c121-860b-4e60-984f-5eca721d73e2)
+
+These low engagement numbers reinforce the insight:
+Cyclistic is **underutilizing** its social channels as a tool for brand identity and customer retention.
+
+---
+
+Let me know if you'd like me to convert this into a PDF, slide deck, or include a summary for your presentation pitch!
