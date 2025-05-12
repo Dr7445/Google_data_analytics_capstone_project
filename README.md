@@ -113,7 +113,7 @@ code snippet can be found in the cleaning_and_transformation.R file
 <img width="76" alt="image" src="https://github.com/user-attachments/assets/3bdb21fe-f33d-4093-9730-4f3e91aefcb2" />    <img width="88" alt="image" src="https://github.com/user-attachments/assets/2b6fadc7-9c66-4706-996c-029fdf837c66" />
 
 
-# Replacing missiing values
+# Replacing missing values
 
 A quick check for missing or null values showed that gender and birthyear both had a substantial amout of missing values.
 
@@ -141,7 +141,7 @@ values with the Mode of the birthyeas which was 1992. The code snippet for this 
 
 
 
-📱 Cyclistic’s Social Media Presence: A Missed Opportunity
+# 📱 Cyclistic’s Social Media Presence: A Missed Opportunity
 
 In the search to uncover what differentiates subscribers from casual members, the available structured data was limited in scope — it offered only a surface-level understanding and few actionable insights.
 
