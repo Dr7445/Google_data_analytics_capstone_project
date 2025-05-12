@@ -164,3 +164,15 @@ And therein lies the insight.
 A positive, emotionally resonant relationship with a brand is a powerful motivator. It encourages casual riders to become loyal subscribers — not just because of cost or convenience, but because they identify with the service.
 
 This disconnect on social media may point to a missed opportunity. By investing in a stronger digital engagement strategy — storytelling, user-generated content, community features — Cyclistic could cultivate a sense of belonging, turning riders into advocates.
+
+📉 Social Media Metrics Confirm the Gap
+
+According to HypeAuditor, Cyclistic’s Instagram account (@divvybikes) has:
+
+Posted over 1,100 times
+
+Gained only ~17 average likes per post
+
+Achieved a 0.28% likes-to-followers ratio
+
+These figures confirm what was observed manually — that the current strategy lacks reach, resonance, and relevance. For a transportation platform with city-wide impact and millions of users, this is not just underwhelming — it’s a clear signal that the social channel is being underutilized as a tool for user retention and brand loyalty.
