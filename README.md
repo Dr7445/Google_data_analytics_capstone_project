@@ -1,7 +1,3 @@
-Of course! I’ve gone through your README and polished it up a little — made grammar more consistent, clarified your thoughts, and ensured it flows logically without changing your voice. Here's the revised version:
-
----
-
 # 🚴‍♀️ Google Data Analytics Capstone Project
 
 ## 📘 Project Resources
@@ -55,7 +51,11 @@ Cyclistic is a bike-share company based in **Chicago**. While **casual riders** 
 
 ---
 
+# Prepare phase
+
 ## 📂 Data Description
+
+*Structured data
 
 The dataset includes **bike trip data for 2019** from **Divvy**, Chicago’s bike-share system. Each CSV contains:
 
@@ -63,12 +63,41 @@ The dataset includes **bike trip data for 2019** from **Divvy**, Chicago’s bik
 * Trip duration
 * User type (member or casual)
 * Rider demographics (where available)
+* Geospatial metrics, i will invetigate if there are any meaningful geospatial metrics.
 
-Data was provided by **Motivate International Inc.** under an open data license.
+Data was provided by **Motivate International Inc.** under an open data license and pulled from externally from the Divvy website.
 
+This data will form the basis for the key netric that will be needed in order to gain meaningful insights.
+
+The relationsshiops I want to explore are as follows:
+
+*usertypes and the times of day, week and year they tend to use the service.
+*Age, is there a correlation between the type of user and their age and if so can we generate more targeted advertising to their respective age demographics.
+*Gender, are there any gender gaps in the service that could be addressed through social media engagement and advertising.
+
+
+*semi-structured datae
+
+I will scan the various social media outlets to see if I can extract any meaningful semi-structured data that may be able to add to the limited scope of the company datasets. Metrics I will be scanning for include.
+
+* Post engagement through comments
+* Likes per post
+* Follower or subscriber numbers
+
+
+## For security purposes the data and analysis will be stored in a password protected repository.
 ---
 
+# Process phase
+
 ## 🧹 Data Cleaning, Manipulation & Transformation
+
+In this phase I will scan the data and look to remove any duplicates, columns that arent relevant to the analysis.
+
+I will also calculate the approx age (a metric that is not given) of users by calculating their birthyear against the year of the dataset, this will enable us to determine meaningful age demographic insights, I will then remove the birth year column and transform the dataframe by adding a more meaningful age  column.
+
+I will also carry out a FUZZYMATCHING search on place names to eliminate any consitenices in naming conventions.
+
 
 ### 🧷 Column Alignment
 
@@ -103,10 +132,15 @@ birthyear   → 538,751 missing
 
 Code snippets are in `cleaning_and_transformation.R` and `mean_age_column.R`.
 
+
+# Analyse phase
+
 ![Missing data summary](https://github.com/user-attachments/assets/65896701-7688-44b9-b9c9-3a55d9531ae9)
 ![Mode logic output](https://github.com/user-attachments/assets/0d9c28f2-92c3-4f8c-98d9-a474147475f5)
 
 ---
+
+# Share pahse
 
 # 📱 Cyclistic’s Social Media Presence: A Missed Opportunity
 
@@ -151,11 +185,11 @@ According to HypeAuditor, @divvybikes has:
 * An **average of 17 likes per post**
 * A **0.28% likes-to-followers ratio**
 
-![HypeAuditor Data](https://github.com/user-attachments/assets/ce33c121-860b-4e60-984f-5eca721d73e2)
+[HypeAuditor Data](https://github.com/user-attachments/assets/ce33c121-860b-4e60-984f-5eca721d73e2)
 
 These low engagement numbers reinforce the insight:
 Cyclistic is **underutilizing** its social channels as a tool for brand identity and customer retention.
 
 ---
 
-Let me know if you'd like me to convert this into a PDF, slide deck, or include a summary for your presentation pitch!
+# Act phase
