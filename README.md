@@ -141,5 +141,26 @@ values with the Mode of the birthyeas which was 1992. The code snippet for this 
 
 
 
+📱 Cyclistic’s Social Media Presence: A Missed Opportunity
 
+In the search to uncover what differentiates subscribers from casual members, the available structured data was limited in scope — it offered only a surface-level understanding and few actionable insights.
 
+Driven by curiosity and a desire to go further, I expanded the investigation into semi-structured data: social media platforms and online engagement. Although this approach didn’t yield clean, categorical data suitable for analysis, it revealed something more powerful — a clear gap in Cyclistic’s customer connection strategy.
+
+Through manual review of social media posts (from the real-world company Cyclistic is based on), a striking pattern emerged:
+
+Twitter followers: ~13,000
+
+Instagram followers: ~6,000
+
+Average post engagement: Fewer than 10 likes per post
+
+For a mobile app-based company facilitating over 3 million rides annually, this is a significant mismatch between usage and engagement. The numbers suggest that many customers see Cyclistic purely as a means to an end — a utility, not a community.
+
+And therein lies the insight.
+
+🤝 The Hidden Differentiator
+
+A positive, emotionally resonant relationship with a brand is a powerful motivator. It encourages casual riders to become loyal subscribers — not just because of cost or convenience, but because they identify with the service.
+
+This disconnect on social media may point to a missed opportunity. By investing in a stronger digital engagement strategy — storytelling, user-generated content, community features — Cyclistic could cultivate a sense of belonging, turning riders into advocates.
