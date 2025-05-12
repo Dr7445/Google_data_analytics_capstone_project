@@ -55,37 +55,44 @@ Cyclistic is a bike-share company based in **Chicago**. While **casual riders** 
 
 ## 📂 Data Description
 
-*Structured data
+##Structured data
 
-The dataset includes **bike trip data for 2019** from **Divvy**, Chicago’s bike-share system. Each CSV contains:
+The dataset includes bike trip data for 2019 from Divvy, Chicago’s bike-share system. Each CSV contains:
 
-* Trip start/end time and station
-* Trip duration
-* User type (member or casual)
-* Rider demographics (where available)
-* Geospatial metrics, i will invetigate if there are any meaningful geospatial metrics.
+*Trip start/end time and station
 
-Data was provided by **Motivate International Inc.** under an open data license and pulled from externally from the Divvy website.
+*Trip duration
 
-This data will form the basis for the key netric that will be needed in order to gain meaningful insights.
+*User type (member or casual)
 
-The relationsshiops I want to explore are as follows:
+*Rider demographics (where available)
 
-*usertypes and the times of day, week and year they tend to use the service.
-*Age, is there a correlation between the type of user and their age and if so can we generate more targeted advertising to their respective age demographics.
-*Gender, are there any gender gaps in the service that could be addressed through social media engagement and advertising.
+*Geospatial metrics – to be investigated for meaningful patterns
 
 
-*semi-structured datae
-
-I will scan the various social media outlets to see if I can extract any meaningful semi-structured data that may be able to add to the limited scope of the company datasets. Metrics I will be scanning for include.
-
-* Post engagement through comments
-* Likes per post
-* Follower or subscriber numbers
+Data was provided by Motivate International Inc. under an open data license and pulled externally from the Divvy website.
 
 
-## For security purposes the data and analysis will be stored in a password protected repository.
+This dataset will form the basis for metrics required to derive insights. Relationships I want to explore include:
+
+
+*Usertype vs time of day, week, and year of usage
+
+*Age: Is there a correlation between user type and age? Can this inform targeted advertising?
+
+*Gender: Are there gender gaps that could be addressed through marketing and engagement?
+
+## Semi-structured data
+
+I will explore social media platforms to extract meaningful engagement metrics, including:
+
+*Post engagement (comments, likes)
+
+*Followers/subscriber numbers
+
+
+Note: All analysis and data are stored in a password-protected repository for security purposes.
+
 ---
 
 # Process phase
