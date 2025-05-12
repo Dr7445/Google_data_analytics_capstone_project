@@ -205,9 +205,11 @@ Cyclistic is **underutilizing** its social channels as a tool for brand identity
 
 
 🎯 Age Demographics: A Generational Divide
+
 My analysis revealed that the average age of casual users is 28, while the average age of annual subscribers is 35. In today's marketing landscape, a seven-year age gap represents a meaningful difference in user behavior and digital expectations. This generational divide suggests that older users are more likely to value the long-term savings and convenience of a subscription, while younger users may favor the spontaneity of occasional, recreational rides.
 
 📱 TikTok: A Missed Channel for Younger Engagement
+
 Additionally, the company has no presence on TikTok, despite the platform being heavily favored by the 18–28 age demographic — which aligns closely with Cyclistic’s casual rider base. This represents a major missed opportunity to engage the very users most likely to convert with the right content strategy.
 
 By embracing platform-native storytelling and short-form video formats, Cyclistic could increase visibility, foster brand connection, and ultimately convert casual users into loyal members — not just through cost incentives, but through community and identity.
