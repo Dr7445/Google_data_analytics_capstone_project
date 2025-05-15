@@ -204,7 +204,7 @@ Cyclistic is **underutilizing** its social channels as a tool for brand identity
 # Act phase
 
 
-[![Silence of the Grams](./silence-of-the-grams.webp.webp)
+![Silence of the Grams](./silence-of-the-grams.webp.webp)
 
 
 
