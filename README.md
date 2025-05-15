@@ -203,6 +203,9 @@ Cyclistic is **underutilizing** its social channels as a tool for brand identity
 
 # Act phase
 
+![Uploading image.png…]()
+
+
 
 🎯 Age Demographics: A Generational Divide
 
