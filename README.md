@@ -203,7 +203,9 @@ Cyclistic is **underutilizing** its social channels as a tool for brand identity
 
 # Act phase
 
-![Uploading image.png…]()
+
+[Uploading image.png…]()
+
 
 
 
