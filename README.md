@@ -147,7 +147,7 @@ Code snippets are in `cleaning_and_transformation.R` and `mean_age_column.R`.
 
 ---
 
-# Share pahse
+# Share phase
 
 # 📱 Cyclistic’s Social Media Presence: A Missed Opportunity
 
